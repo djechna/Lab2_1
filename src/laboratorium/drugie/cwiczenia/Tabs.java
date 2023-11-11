@@ -1,4 +1,4 @@
-package lab2;
+package laboratorium.drugie.cwiczenia;
 import java.util.Arrays;
 import java.util.Random; //do zapełnienia ciągu liczbami (pseudo)losowymi
 import java.util.Scanner;

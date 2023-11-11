@@ -1,4 +1,4 @@
-package lab2;
+package laboratorium.drugie.cwiczenia;
 public class Main {
     public static void main(String[] args) {
         Variables var = new Variables();    //utworzenie obiektu klasy Variables
@@ -15,5 +15,9 @@ public class Main {
         tab.remove();
         tab.merge();
         tab.howMany();
+        System.out.println("\n- - - - - - - - - -\n"); //przerywnik między zadaniami
+        Book book = new Book("Logika Praktyczna","Zygmunt Ziembiński",2004, 282, 4.5F);
+        book.displayBookInfo();
+        book.borrowBook();
     }
 }

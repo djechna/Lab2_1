@@ -1,4 +1,4 @@
-package lab2;
+package laboratorium.drugie.cwiczenia;
 import java.util.Scanner;
 public class Variables {
     //deklaracja zmiennych
