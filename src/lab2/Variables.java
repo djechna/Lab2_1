@@ -49,7 +49,7 @@ public class Variables {
                 scanner.nextLine();
             }
         }
-        scanner.close();
+        //scanner.close(); psuje działanie scannera w klasie Tabs...
     }
     public void conversion() {
         calkowitaDouble = calkowita; // Intellij twierdzi, że rzutowanie w tym przypadku jest zbędne
@@ -58,7 +58,7 @@ public class Variables {
         znakInt = znak; // Intellij twierdzi, że rzutowanie w tym przypadku jest zbędne
         logicznaString = String.valueOf(logiczna); // zmiennych logicznych nie można rzutować, stąd użycie metody
     }
-    public void drukuj() {  //bardzo prosta metoda do wyświetlania danych
+    public void drukuj() {  //bardzo prosta metoda do wyświetlania danych, powinna się nazywać print...
         System.out.println("Wprowadzone dane:");
         System.out.println(calkowita+"\t"+zmienno+"\t"+znak+"\t"+logiczna);
         System.out.println("Dane przekonwertowane:");
